@@ -1,0 +1,21 @@
+model:
+  name: bert-base-uncased
+  rank: 8
+  alpha: 16
+
+training:
+  batch_size: 8
+  learning_rate: 2.0e-5
+  epochs: 3
+  warmup_epochs: 1
+  max_length: 128
+
+alora:
+  min_rank: 2
+  max_rank: 16
+  max_rank_move: 1
+  importance_gap: 0.10
+
+tasks:
+  ag_news:
+    num_labels: 4
