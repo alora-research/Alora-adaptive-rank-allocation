@@ -1,6 +1,6 @@
 # ============================================================
 # DeBERTa-v3-base — CoLA
-# Seesaw-v2: generalized adaptive Q/K/V/O LoRA
+# Seesaw-v2: generalized adaptive Q/K/V/O LoRA 
 # Also used for: SST-2, STS-B, MRPC (Table 3 comparison)
 # ============================================================
 
