@@ -1,6 +1,25 @@
-torch
-transformers
-datasets
-pyyaml
-numpy
-scipy
+# ============================================================
+# Seesaw: Budget-Preserving Rank Reallocation for Low-Rank Adaptation
+# requirements.txt
+# ============================================================
+
+# Core deep learning framework
+torch>=2.0.0
+
+# Hugging Face ecosystem
+transformers>=4.35.0
+datasets>=2.14.0
+accelerate>=0.24.0
+sentencepiece>=0.1.99
+
+# Metrics and evaluation
+scikit-learn>=1.3.0
+
+# Config handling
+pyyaml>=6.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Progress bars / logging (used implicitly by datasets/transformers)
+tqdm>=4.65.0
