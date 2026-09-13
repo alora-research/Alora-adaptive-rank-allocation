@@ -73,7 +73,9 @@ python src/train.py --config configs/deberta_v3_cola.yaml
 ```bash
 bash scripts/run_ablations.sh --ablation normalization
 ```
-
+```bash
+  pip install torch --index-url https://download.pytorch.org/whl/cu118
+```
 Each run saves the best and final checkpoints, plus a transfer log recording every rank reallocation event (`donor: r → r-1 | receiver: r → r+1`) to `results/logs/`.
 
 ## Key configuration
