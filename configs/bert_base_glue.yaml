@@ -4,7 +4,7 @@
 # Seesaw-v1: fixed-formula, query-projection only
 # ============================================================
 
-model:
+model: 
   name: bert-base-uncased
   target_modules: [query]        # Seesaw-v1: query projections only
   num_labels: 2                  # overridden per-task (e.g. 4 for AG News, 1 for STS-B regression)
